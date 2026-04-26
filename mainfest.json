@@ -1,8 +1,8 @@
 {
   "name": "FinTrust Calculator",
   "short_name": "FinTrust",
-  "start_url": "/fintrust189/index.html",
-  "scope": "/fintrust189/",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#0a7cff",
   "theme_color": "#0a7cff",
@@ -11,14 +11,12 @@
     {
       "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
       "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     }
   ]
 }
