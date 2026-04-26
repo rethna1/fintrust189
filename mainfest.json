@@ -1,11 +1,12 @@
 {
-  "name": "FinTrust Tools",
+  "name": "FinTrust Calculator",
   "short_name": "FinTrust",
-  "start_url": "./index.html",
-  "scope": "./",
+  "start_url": "/fintrust189/index.html",
+  "scope": "/fintrust189/",
   "display": "standalone",
-  "background_color": "#f4f6f9",
-  "theme_color": "#2c3e50",
+  "background_color": "#0a7cff",
+  "theme_color": "#0a7cff",
+
   "icons": [
     {
       "src": "icon-192.png",
