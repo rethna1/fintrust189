@@ -406,9 +406,16 @@ calculateLump();
 document.getElementById("year").textContent = new Date().getFullYear();
 </script>
 <script>
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("sw.js")
-    .then(() => console.log("Service Worker Registered"));
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('./sw.js')
+      .then(function(reg) {
+        console.log('SW Registered', reg);
+      })
+      .catch(function(err) {
+        console.log('SW Failed', err);
+      });
+  });
 }
 </script>
 </body>
